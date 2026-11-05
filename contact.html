@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Haya </title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8f9fc;
+      color: #202940;
+    }
+
+    nav {
+      background: #13205f;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 24px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 90px auto;
+      padding: 0 24px;
+    }
+
+    h1 {
+      font-size: 42px;
+      color: #13205f;
+    }
+
+    p {
+      font-size: 17px;
+      color: #566078;
+      line-height: 1.8;
+    }
+
+    .contact-card {
+      background: white;
+      padding: 30px;
+      border: 1px solid #e6e9f2;
+      border-radius: 14px;
+      margin-top: 30px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+    }
+
+    .contact-card a {
+      color: #13205f;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .contact-card a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+
+      nav a {
+        margin: 0 12px 0 0;
+      }
+
+      h1 { font-size: 34px; }
+      main { margin: 60px auto; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Haya </div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <h1>Get in Touch</h1>
+
+    <p>
+      I'm always interested in learning, connecting
+      with other developers, and exploring new
+      opportunities in software engineering and design.
+    </p>
+
+    <div class="contact-card">
+      <h2>Let's Connect</h2>
+      <p>
+        You can find my projects and connect with me
+        through GitHub.
+      </p>
+
+      <p>
+        💻 GitHub:
+        <a
+          href="https://github.com/haalmossaeed"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          github.com/haalmossaeed
+        </a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    © 2026 Haya 
+  </footer>
+
+</body>
+</html>
